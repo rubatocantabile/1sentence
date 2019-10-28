@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './index.css'
+import './style.scss'
 
 export default class Left extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './index.css'
+import './style.scss'
 
 export default class WrittingArea extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ export default class WrittingArea extends Component {
 
   render() {
     return (
-      <div class="note">
+      <div className="note">
         <textarea
           className="note-contents"
           value={this.state.contents}

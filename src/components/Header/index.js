@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
-import './index.css';
+import './style.scss';
 
 export default class Header extends Component {
   render() {
     return (
-      <div class="header">
-        <div class="ham">햄</div>
-        <div class="title">
+      <div className="header">
+        <div className="ham">햄</div>
+        <div id="title">
           <span>1sentence</span>
         </div>
+        <div className="login">
+          <span>로그인</span>
+        </div>       
       </div>
     )
   }

@@ -1,0 +1,19 @@
+#title {
+  display: block;
+  justify-content: space-between;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+.header {
+  position: relative;
+  display: flex;
+  height: 3em;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  .ham {
+    // position: absolute;
+    left: 1%;
+  }
+}
