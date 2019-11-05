@@ -1,7 +1,7 @@
 #title {
   display: block;
   justify-content: space-between;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 5px;
 }
 .header {
@@ -10,10 +10,14 @@
   height: 3em;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 20px;
+  margin-bottom: 30px;
 
   .ham {
+    padding: 1vh;
+
+
     // position: absolute;
-    left: 1%;
+    // left: 1%;
   }
 }
