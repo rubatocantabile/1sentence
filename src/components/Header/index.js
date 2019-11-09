@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 import Menu from '../Menu'
-import Login from '../Login'
+import LoginBtn from './LoginBtn'
 import './style.scss'
 
 
 export default class Header extends Component {
+  constructor(props) {
+    super(props) 
+  }
+  
   render() {
     return (
       <div className="header">
@@ -14,8 +18,8 @@ export default class Header extends Component {
         <div id="title">
           <span>1sentence</span>
         </div>
-        <div className="login">
-          <Login />            
+        <div className="loginBtn">
+          <LoginBtn toggleLogin={() => this.props.toggleLogin()} />            
         </div>       
       </div>
     )

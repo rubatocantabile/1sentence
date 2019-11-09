@@ -27,8 +27,7 @@ export default class WrittingArea extends Component {
           value={this.state.contents}
           placeholder= "당신의 오늘은 어땠나요?"
           onChange={(e) => this.onEditNote(e)}
-        />
-        
+        />        
       </div>
     )
   }

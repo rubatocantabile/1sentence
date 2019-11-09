@@ -1,10 +1,13 @@
 .note {
   display: flex;
-  width: 100%;
+  flex-direction: row;
   height: 100vh;
+  height: calc(100vh - 50px);
+  width: 100%;
+  justify-content: space-around;
   border: 2em;
-  padding: 30px;
-  align-content: center;
+  padding: 40px;
+  // align-content: center;
  
   .note-contents {
     width: 100%;
