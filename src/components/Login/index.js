@@ -14,23 +14,16 @@ export default class Login extends Component {
           <div>
             <span>이메일</span>
             <input></input>
-            <button>인증</button>
-          </div>
-          <div>
-            <span>인증키</span>
-            <input></input>
-            <button>확인</button>
           </div>
           <div>
             <span>비밀번호</span>
             <input></input>
           </div>
           <div>
-            <span>비밀번호 확인</span>
-            <input></input>
+            <button>로그인</button>
           </div>
           <div>
-            <button>가입</button>
+            <button>회원가입</button>
           </div>
         </form>
       </div>
