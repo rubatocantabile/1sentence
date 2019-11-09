@@ -4,6 +4,7 @@ import Header from '../Header'
 import Left from '../Left'
 import Note from '../Note'
 import Login from '../Login'
+import List from '../List'
 import Clock from 'react-live-clock';
 import {Route, Switch, Link} from 'react-router-dom';
 // import SaveButton from '../SaveButton'
@@ -25,24 +26,18 @@ export default class App extends Component {
       showLogin: !this.state.showLogin
     })
   }
-
+// /list/10/8/30
   render() {
     return (
       <div>
         <div className="App">
           <Header toggleLogin={() => this.toggleLogin()} />
-          <Left />
-          <div className="time">
-            <Clock 
-              format={'YYYY년 MM월 DD일 HH:mm:ss'} 
-              ticking={true} 
-              timezone={'Asia/Seoul'}
-            />        
-          </div>
           <div className="container">
-            <Note />  
-            {/* <SaveButton />         */}
-          </div>        
+            <Route path="/note" component={Note} />
+            <Route path="/list/:year/:month/:day" component={List} />
+            {/* <Route path="/list/:year/:month" component={} />
+            <Route path="/list/:year" component={} /> */}
+          </div>     
         </div>
         { this.showLogin ?
            <Login />
