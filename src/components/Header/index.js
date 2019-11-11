@@ -15,7 +15,7 @@ export default class Header extends Component {
         <div className="ham">
           <Menu />
         </div>
-        <div id="title">
+        <div className="title">
           <span>1sentence</span>
         </div>
         <div className="loginBtn">

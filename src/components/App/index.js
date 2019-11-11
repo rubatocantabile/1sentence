@@ -33,7 +33,7 @@ export default class App extends Component {
         <div className="App">
           <Header toggleLogin={() => this.toggleLogin()} />
           <div className="container">
-            <Route path="/note" component={Note} />
+            <Route path="/" component={Note} />
             <Route path="/list/:year/:month/:day" component={List} />
             {/* <Route path="/list/:year/:month" component={} />
             <Route path="/list/:year" component={} /> */}

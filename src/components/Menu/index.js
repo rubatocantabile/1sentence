@@ -8,14 +8,12 @@ export default class Menu extends Component {
   render() {
     return (
       <div>
-        <div className="wrapper">
-          <div className="line-wrapper">
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
-          </div>
-        </div> 
-      </div>
+        <div className="line-wrapper">
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
+      </div> 
     )
   }
 }
